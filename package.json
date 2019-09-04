@@ -1,0 +1,26 @@
+{
+  "name": "cameras",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "http-server ./ -a localhost -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "standard": {
+    "globals": [
+      "angular"
+    ]
+  },
+  "author": "Jason Sadler",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "nodemon": "^1.19.2",
+    "standard": "^14.1.0"
+  }
+}
